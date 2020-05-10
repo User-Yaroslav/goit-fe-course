@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+    .header__inner{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .centering{
+        max-width: 748px;
+    }
+    .logo{
+        margin: 0;
+    }
+    .title__text{
+        max-width: 477px;
+    }
+    .container{
+        max-width: 748px;
+        top: 50%;
+    }
+    .section__wrap{
+        top: 50%;
+    }
+    .title__link{
+        max-width: 281px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .section2{
+        min-height: 100vh;
+        margin: auto;
+    }
+    .container2{
+        max-width:748px;
+        margin: auto;
+    }
+    .title2{
+        min-width: 400px;
+    }
+    .team__for-meet{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .person{
+      width: 250px;
+    }
+    .link__person{
+        max-width: 226px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .name{
+        text-align: center;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .summary{
+        margin: auto;
+        margin-top: 15px;
+    }
+}
