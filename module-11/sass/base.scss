@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: $montserrat-fonts;
+  }
+  
+  .container{
+    position: relative;
+    width: 100%;
+    max-width: 1220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    box-sizing: border-box;  
+  }
+  
+  .h2{
+    color: $dark-color;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: $montserrat-fonts;
+    padding-top: 45px;
+  
+    &::after{
+      content: '';
+      display: block;
+      margin: 61px auto 50px;
+      width: 61px;
+      height: 4px;
+      background-color: $pink-color;
+    }
+  }
+  
+  .h2__sub_title{
+    color: $dark-color;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: $kaushan-fonts;
+    padding-bottom: 22px;
+    text-transform: none;
+  }

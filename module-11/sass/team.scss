@@ -1,0 +1,121 @@
+.team{
+    padding: 42px 0 81px 0;
+    text-align: center;
+  }
+    
+    
+  .team__text{
+    color: $grey-color;
+    font-family: $roboto-fonts;
+    font-size: 15px;
+    max-width: 941px;
+    text-align: center;
+    line-height: 1.4;
+    padding-bottom: 91px;
+    margin: auto;
+  }
+    
+  .team__member-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+    
+  .team__member{
+    width: 381px;
+  
+    &:hover .team__avatar-wrap{
+      transform: translate(-10px, -10px);
+      box-shadow: 10px 10px $blue-color;
+    }
+  
+    &:hover .team__socials-wrap{ 
+      opacity: 1;
+    }
+  }
+    
+  .team__avatar-wrap{
+    position: relative;
+    box-shadow: 0 0 $blue-color;
+    transition: 0.35s;
+    margin-bottom: 31px;
+  }
+    
+  .team__avatar{
+    display: block;
+    width: 100%;
+    height: 471px;
+  }
+    
+  .team__socials-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.35s;
+    background-image: linear-gradient(to bottom, rgba(189,49,51,0.5760679271708684) 0%, rgba(210,177,67,1) 100%);
+  }
+    
+  .team__socials-list{
+    display: flex;
+    max-width: 90%;
+  }
+    
+  .team__socials-item{
+    margin-right: 1px;
+  
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+    
+  .team__socials-btn{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 57px;
+    background-color: $yellow-color;
+    border: none;
+    text-decoration: none;
+    transition: 0.35s;
+  
+    &:hover {
+      background-color: $blue-color;
+    }
+  
+    &:hover .team__socials-btn-icon{
+      fill: $white-color;
+    }
+  }
+    
+  .team__socials-btn-icon{
+    fill: $pink-color;
+    fill-rule: evenodd;
+    transition: 0.35s;
+  }
+  
+  .team__member-name{
+    color: $dark-color;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+    
+  .team__member-position{
+    color: $grey-color;
+    font-family: $roboto-fonts;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.2;
+    font-style: italic;
+  }
